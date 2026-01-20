@@ -37,8 +37,11 @@ body{
 
 
 footer{
+    display: flex;
+    flex-direction: column;
     background-color: orange;
     text-align: center;
-    margin-top: auto;
-    padding: 70px;
+    padding: 50px;
+    gap: 10px;
+
 }
