@@ -29,6 +29,12 @@ body{
 
 .slogan {
     font-size: var(--font-size);
+    text-align: center;
+}
+
+.about-me{
+    text-align: center;
+    padding: var(--padding);
 }
 
 
@@ -61,16 +67,8 @@ body{
     flex-wrap: wrap;
     gap: 20px;
     margin-top: 20px;
-   
-    
     
 }
-
-
-
-
-
-
 
 footer{
     display: flex;
