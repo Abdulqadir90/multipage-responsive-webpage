@@ -1,15 +1,26 @@
+:root {
+    --primary-color: orange;
+    --secondary-color:yellow;
+    --font-size: 25px;
+    --padding: 20px;
+    --gap: 25px;
+}
+
+
+
+
 *{
     margin: 0;
     padding: 0;
 }
 
 body{
-     background-color:yellow;
+     background-color:var(--secondary-color);
 }
 
 #header-container{
     font-size: 20px;
-    background-color: orange;
+    background-color: var(--primary-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,13 +28,13 @@ body{
 }
 
 .slogan {
-    font-size: 20px;
-    
+    font-size: var(--font-size);
 }
+
 
 .links{
     list-style: none;
-    padding: 20px;
+    padding: var(--padding);
     display: flex;
     gap: 50px;
     
@@ -39,9 +50,9 @@ body{
 footer{
     display: flex;
     flex-direction: column;
-    background-color: orange;
+    background-color: var(--primary-color);
     text-align: center;
-    padding: 50px;
+    padding: var(--padding);
     gap: 10px;
 
 }
