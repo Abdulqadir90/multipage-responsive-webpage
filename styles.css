@@ -15,7 +15,11 @@
 }
 
 body{
-     background-color:var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color:var(--secondary-color);
+
 }
 
 #header-container{
@@ -37,6 +41,14 @@ body{
     background-size: cover;
 }
 
+.content{
+    position: absolute;
+    color:rgb(239, 235, 235);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    top: 30%;
+    right: 50%;
+}
 
 
 
@@ -55,11 +67,6 @@ body{
     
 }
 
-
-#projects{
-    text-align: center;
-    font-size: 19px;
-}
 
 .cases{
     display: flex;
@@ -89,10 +96,12 @@ body{
     text-align: center;
 }
 
+.about-slogan{
+    margin-top: 10px;
+}
+
 footer{
-    display: flex;
-    flex-direction: column;
-    /* margin-top: 30%; */
+    margin-top: auto;
     background-color: var(--primary-color);
     text-align: center;
     padding: var(--padding);
