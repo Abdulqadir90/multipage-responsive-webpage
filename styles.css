@@ -52,13 +52,6 @@ body{
 
 
 
-.about-me{
-    text-align: center;
-    padding: var(--padding);
-    text-decoration: underline;
-}
-
-
 .links{
     list-style: none;
     padding: var(--padding);
@@ -96,8 +89,27 @@ body{
     text-align: center;
 }
 
+.about-container{
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    padding: var(--padding);
+    margin: 50px;
+
+}
+
+
+.about-me{
+    text-align: center;
+    padding: var(--padding);
+    margin-bottom: 25px;
+    text-decoration: underline;
+}
+
 .about-slogan{
-    margin-top: 10px;
+    line-height: 1.5;
+    font-size: 20px;
+
 }
 
 footer{
