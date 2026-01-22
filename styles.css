@@ -27,6 +27,18 @@ body{
     gap: 20px;
 }
 
+.image-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
 
 .about-me{
     text-align: center;
@@ -43,17 +55,9 @@ body{
     
 }
 
-.image-container{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-}
 
 #projects{
     text-align: center;
-    position: absolute;
-    top: 30%;
-    right: 60%;
     font-size: 19px;
 }
 
@@ -88,7 +92,7 @@ body{
 footer{
     display: flex;
     flex-direction: column;
-    margin-top: 30%;
+    /* margin-top: 30%; */
     background-color: var(--primary-color);
     text-align: center;
     padding: var(--padding);
