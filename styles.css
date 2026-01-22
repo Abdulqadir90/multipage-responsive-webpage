@@ -27,14 +27,11 @@ body{
     gap: 20px;
 }
 
-.slogan {
-    font-size: var(--font-size);
-    text-align: center;
-}
 
 .about-me{
     text-align: center;
     padding: var(--padding);
+    text-decoration: underline;
 }
 
 
@@ -69,9 +66,29 @@ body{
     
 }
 
+#section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    gap: 10px;
+   
+
+}
+
+.slogan {
+    font-size: var(--font-size);
+    text-align: center;
+}
+.slogan2{
+    text-decoration: underline;
+    text-align: center;
+}
+
 footer{
     display: flex;
     flex-direction: column;
+    margin-top: 30%;
     background-color: var(--primary-color);
     text-align: center;
     padding: var(--padding);
